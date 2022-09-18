@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+ul{
+    list-style: none;
+    color: black;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.footer{
+    padding: 40px 20px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    position:absolute;
+    font-size: 30px;
+    z-index: 999;
+}
+.footer span {
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
+}
+.footer span a{
+    color: black;
+    font-size: 1.5rem;
+}
+.footer span i:hover{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+li,a,button{
+    font-size: 16px;
+    text-decoration: none;
+}
+button{
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.s1{
+    top: 0%;
+    background-image: url( 'wave1.svg' );
+    background-size:cover;
+}
+.image{
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+}
+.home_detail{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+/* Section2 start */
+.s2{
+    background-image: url( 'wave2.svg' );
+    background-size: cover;
+}
+.w80 {
+    display: flex;
+    text-align: right;
+}
+
+.col-5{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-5 ul li{
+    margin: 10px;
+}
+.skill_detail .heading h3{
+    margin-top: 5rem;
+}
+.heading h3{
+    text-align: center;
+    margin-top: 0rem;
+    text-transform: uppercase;
+}
+.main{
+    width: 90%;
+    margin: auto;
+}
+.heading p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.about_detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    
+}
+.w80{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* Section2 end */
+
+
+
+
+.s3{
+    background-image: url( 'wave3.svg' );
+    background-size: cover;
+}
+.skill_detail{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+.skills_container{
+    display: flex;
+    margin: auto 20px;
+}
+.skills-con-left{
+    width: 30%;
+}
+.skills-con-right{
+    width: 65%;
+    margin: auto;
+}
+.section-title1{
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    margin: 10px 0px 20px;
+}.skill_left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill_left{
+    justify-content: flex-start;
+}.skill_left button{
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.skill_left button:hover{
+    background-color: rgba(0, 0, 0, 0.2);}
+    .skill_bar{
+        margin-top: 20px;
+    }
+    .progress_number{
+        float: right;
+    }
+    .progress_bar_content{
+        margin-top: 8px;
+        background: black;
+        height: 3px;
+    }
+    .progress_bar_data1{
+        width:70%;
+    }
+    .progress_bar_data2{
+        width: 60%;
+    }
+    .progress_bar_data3{
+        width: 50%;
+    }
+    .progress_bar_data4{
+        width: 80%;
+    }
+    .progress_bar_data5{
+        width: 75%;
+    }
+    .skill_bar{
+        margin-top: 20px;
+    }
+
+.s4{
+    background-image: url( 'wave4.svg' );
+    background-size: cover;
+}
+.s5{
+    background-image: url( 'wave5.svg' );
+    background-size: cover;
+}
+.interest{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.interest h3{
+    margin: 2rem;
+}
+.box_Knowledges{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box_Knowledges button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.box_Knowledges button{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 1px 2px 13px 1px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+.s6{
+    background-image: url( 'wave6.svg' );
+    background-size: cover;
+}
+.s7{
+    background-image: url( 'wave7.svg' );
+    background-size: cover;
+}
+.contact_details,.Projects{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.main_con,.projects_details{
+    width: 70%;
+    text-align: center;
+}
+.btn{
+    position: relative;
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0px 25px 15px;
+    min-width: 250px;
+    margin: 20px 0px;
+    left: 0;
+}
+.btn span{
+    position: relative;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+    justify-content: space-around;
+}
+.btn::before{
+    background-color: black;
+    transition: 0.3s ease-out;
+    position: absolute;
+    content: " ";
+}
+.btn span{
+    color: white;
+    border: 1px solid black;
+    transition: 0.2s 0.1s;
+}
+.btn span:hover{
+    color: black;
+    transition: 0.2s 0.1s;
+}
+.btn-hover::before{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+.btn-hover:hover::before{
+    height: 0%;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 12px;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:  -1px -1px 25px -5px rgba(87,87,87,1);
+}
+
+
